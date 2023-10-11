@@ -1,6 +1,8 @@
 <template>
   <nav>
-    <h1>Where in the world?</h1>
+    <router-link :to="{ name: 'home' }">
+      <h1>Where in the world?</h1>
+    </router-link>
     <ThemeToggle />
   </nav>
 </template>
@@ -27,5 +29,9 @@ h1 {
   margin: 0;
   padding: 0;
   font-weight: 800;
+}
+a {
+  text-decoration: none;
+  color: inherit;
 }
 </style>

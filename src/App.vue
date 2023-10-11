@@ -11,7 +11,7 @@ export default {
 
 <template>
   <NavBar />
-  <router-view />
+  <router-view :key="$route.path" />
 </template>
 
 <style></style>

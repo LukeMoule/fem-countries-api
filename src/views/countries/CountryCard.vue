@@ -11,7 +11,7 @@
       </div>
       <div>
         <dt>Region:</dt>
-        <dd>Europe</dd>
+        <dd>{{ region }}</dd>
       </div>
       <div v-if="capitals">
         <dt v-if="capitals.length === 1">Capital:</dt>
